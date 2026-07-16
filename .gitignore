@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+myEnv/
+venv/
+env/
+.venv/
+.env/
+
+# Environment variables
+.env
+
+# Data and Artifacts (avoid pushing large models/data to git)
+data/
+artifacts/
+*.pth
+*.pt
+*.onnx
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db

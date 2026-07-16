@@ -1,0 +1,14 @@
+Experiment ID,Parameter Changed,Old Value,New Value,FL Accuracy,FL Precision,FL Recall,FL F1,Centralized Accuracy,Centralized Precision,Centralized Recall,Centralized F1,Training Time,Status
+1,Batch Size,1024,2048,,,,,,,,,,Failed
+2,Learning Rate,0.001,0.0005,,,,,,,,,,Failed
+3,Learning Rate,0.0005,0.0003,,,,,,,,,,Failed
+4,Weight Decay,1e-5,1e-4,,,,,,,,,,Failed
+5,Transformer Heads,8,4,,,,,,,,,,Failed
+6,Transformer Heads,4,16,,,,,,,,,,Failed
+7,Transformer Layers,2,3,,,,,,,,,,Failed
+8,Transformer Layers,3,4,,,,,,,,,,Failed
+9,Hidden Dimension,256,512,,,,,,,,,,Failed
+10,Dropout,0.10,0.20,,,,,,,,,,Failed
+11,Dropout,0.20,0.30,,,,,,,,,,Failed
+12,Optimizer,Adam,AdamW,,,,,,,,,,Failed
+13,Epochs per Client,1,2,,,,,,,,,,Failed

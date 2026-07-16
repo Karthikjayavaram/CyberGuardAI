@@ -1,0 +1,1 @@
+{"Metric": ["Accuracy", "Precision", "Recall", "F1-Score"], "Centralized": ["0.8319", "0.8412", "0.8319", "0.8110"], "Federated": ["0.7957", "0.8188", "0.7957", "0.7465"]}
