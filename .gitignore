@@ -16,6 +16,7 @@ env/
 # Data and Artifacts (avoid pushing large models/data to git)
 data/
 artifacts/
+fl_system/
 *.pth
 *.pt
 *.onnx
