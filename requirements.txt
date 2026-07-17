@@ -7,7 +7,6 @@ captum==0.7.0
 joblib
 matplotlib
 seaborn
-flwr==1.32.1
 rich==14.1.0
 streamlit
 langchain

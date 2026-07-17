@@ -15,11 +15,22 @@ env/
 
 # Data and Artifacts (avoid pushing large models/data to git)
 data/
-artifacts/
 fl_system/
+
+# Ignore everything in artifacts except the necessary deployment files
+artifacts/*
+!artifacts/model.pth
+!artifacts/scaler.joblib
+!artifacts/label_encoder.joblib
+!artifacts/test_sample.csv
+
+# Ignore model weight extensions globally (but our specific artifacts/model.pth is whitelisted above)
 *.pth
 *.pt
 *.onnx
+
+# Explicitly re-whitelist artifacts/model.pth just in case *.pth overrides it
+!artifacts/model.pth
 
 # IDEs and Editors
 .vscode/
